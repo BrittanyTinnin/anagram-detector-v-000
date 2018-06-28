@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match
-    word.split("").detect{|w| w == word}
+    word.detect{|w| w.reverse == w}
   end
 
 end
