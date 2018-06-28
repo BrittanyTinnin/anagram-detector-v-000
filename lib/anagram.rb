@@ -9,7 +9,7 @@ class Anagram
 
   def match(array)
     array.detect do |w| 
-      w.reverse == 
+      w.reverse == w
     end
   end
 
