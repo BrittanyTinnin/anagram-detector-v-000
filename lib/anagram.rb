@@ -8,8 +8,8 @@ class Anagram
   end
 
   def match(array)
-    array.detect do |w| 
-      w.reverse == w
+    array.detect do |w|
+      w.split == w
     end
   end
 
